@@ -1,0 +1,282 @@
+html{
+  font-size:100%;
+} 
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+/* fix-loi man hinh */
+/* basic content */
+      .container-fluid{
+        padding:0 auto;
+      }
+      body{
+        color:black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      } 
+      a,li,ul{
+        color:black;
+        text-decoration: none;
+        list-style: none;
+      }
+  
+      p:hover, a:hover{
+        text-decoration: none;
+      }
+      .container-fluid .container .pc{
+        margin-top:8px;
+        padding-left: 0;
+        padding-right:0;
+      }
+      .container-fluid .container .catalog{
+        margin-top:8px;
+        padding-left: 0;
+        padding-right:0;
+      }
+
+      .container{
+        margin:0 auto;
+        height:100vh;
+        overflow:hidden;
+        background-color: rgba(111, 138, 167, 0.375);
+        width:100%;
+        -webkit-box-shadow: 0px 18px 34px -11px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 18px 34px -11px rgba(0,0,0,0.75);
+        box-shadow: 0px 18px 34px -11px rgba(0,0,0,0.75);
+        opacity: .9;
+      }
+      .navbar{
+        padding:0px;
+        -webkit-box-shadow: 0px 18px 34px -11px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 18px 34px -11px rgba(0,0,0,0.75);
+        box-shadow: 0px 18px 34px -11px rgba(0,0,0,0.75);
+        opacity: .9;
+}
+/* basic content */
+.nav-item{
+  margin-right:50px;
+}
+.all-logo{
+  padding: 70px 0px;
+  text-align: center;
+}
+footer{
+  padding:40px;
+  background-color: rgb(80, 74, 255);
+  text-align: center;
+
+}
+.faq p{
+  margin-bottom: 0;
+  color:white;
+}
+  .link .row a{
+  color:white;
+}
+.bg{
+  width:100%;
+  height:550px;
+  background: url("../images/guitar.jpg");
+  background-position: center;
+  background-repeat: no-reapeat;
+  background-size: cover;
+}
+.bg .title{
+  margin-left:60px;
+  margin-top:150px;
+}
+.bg .second{
+  padding-left:100px;
+  padding-top:50px;
+}
+.container-fluid{
+  padding:0;
+  background: url("../images/windows11bg.png"); /* The image used */
+  background-position: center;
+  height:100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container-fluid .row{
+  margin:0;
+}
+
+.about-me{
+  padding:40px 0;
+}
+.signup{
+  margin-top:100px;
+  padding:100px;
+}
+
+.logo{
+  width:100px;
+}
+.nav-item{
+  
+}
+h1,h2,h3,h4,h5,span{
+  color:#2a3855;
+  /* font-weight: bolder; */
+}
+.btn{
+  height: 100%;
+  border:1px solid rgb(27, 55, 82);
+  color:rgb(27, 55, 82);
+}
+.change-size{
+  width:100px;
+  height:100%;
+}
+
+.menu-bar{
+  -webkit-box-shadow: 2px 17px 22px -6px rgba(0,0,0,0.55);
+  -moz-box-shadow: 2px 17px 22px -6px rgba(0,0,0,0.55);
+  box-shadow: 2px 17px 22px -6px rgba(0,0,0,0.55);
+}
+
+.carousel-inner{
+  height:600px;
+}
+img.d-block{
+  width:100%;
+  transform: translateY(-25%);
+}
+.welcome, .choose, .service,.things, .call{
+  text-align:center;
+}
+.things{
+  margin-top:100px;
+  margin-bottom:70px;
+}
+.things p{
+  font-weight: lighter;
+}
+.things span{
+  font-size:3rem;
+  margin-bottom:30px;
+}
+.call-back{
+  margin-top:100px;
+  padding:100px;
+}
+.call {
+  padding:50px 0;
+}
+.form-box{
+  margin-top:60px;
+}
+.form-box h2{
+  font-size:1.3rem;
+  margin-bottom:40px;
+}
+.form-box .row{
+  margin-top:20px;
+}
+.form-box button{
+  padding-bottom:30px;
+  border-radius: 5px;
+  height:40px;
+}
+.form-box input{
+  height:40px;
+}
+.from-control{
+  padding-top:20px;
+}
+.second-space{
+  margin-top:60px;
+}
+.all-thing{
+  padding:0 60px;
+}
+.center{
+  text-align: center;
+  justify-content: center;
+}
+.row.team{
+  margin-top: 100px;
+  padding-bottom:200px;
+  text-align: left;
+}
+.welcome{
+  align-items: center;
+  position: relative;
+  margin-bottom:20px;
+  margin-top:150px;
+}
+.welcome h2{
+  font-weight: bold;
+  color:#2a3855;
+}
+hr.line{
+  position: absolute;
+  left: 50%;
+  bottom:0;
+  width:4.3rem;
+  height:3px;
+  transform: translateX(-50%);
+  background-color: #2a3855;
+}
+.change-size{
+  width:120px;
+  height:120px;
+  border-radius: 50%;
+}
+.card{
+  margin-top:50px;
+  border:none;
+}
+.video{
+  position: relative;
+  height:600px;
+  background-image: url("../images/dream.jpeg");
+  background-position: center;
+  background-size:cover;
+}
+span.resize{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translateX(-50%);
+  font-size:5rem;
+  color:white;
+  opacity: .6;
+}
+.title{
+  text-align: left;
+  position: relative;
+}
+
+.icon-title{
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+}
+.icon-title.fa{
+  font-size:1.5rem;
+}
+.intro-text{
+  margin-left:40px;
+}
+.service{
+  padding-top:20px;
+}
+.introduction {
+  padding-left:10px;
+  padding-right:70px;
+  padding-top:100px;
+}
+img.thumnail{
+  width:500px;
+  height:400px;
+}
+.content{
+  padding-top:50px;
+}
+.contact{
+  margin-top:50px;
+  padding:10px;
+  margin-bottom:200px;
+}
